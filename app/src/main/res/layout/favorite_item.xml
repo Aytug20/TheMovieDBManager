@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView2"
+    android:layout_width="352dp"
+    android:layout_height="248dp"
+    app:cardBackgroundColor="@android:color/black"
+    app:cardCornerRadius="0dp"
+    app:cardElevation="0.7dp"
+    app:cardMaxElevation="1dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="10dp"
+    app:contentPaddingBottom="0dp">
+
+
+
+    <RelativeLayout
+        android:layout_width="338dp"
+        android:layout_height="236dp">
+
+        <ImageView
+            android:id="@+id/imgFavorite"
+            android:layout_width="117dp"
+            android:layout_height="156dp"
+            android:scaleType="centerCrop">
+        </ImageView>
+
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="235dp"
+            android:layout_height="79dp"
+            android:layout_below="@id/imgFavorite"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center_vertical"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <ToggleButton
+            android:id="@+id/toggle_delete"
+            android:layout_width="52dp"
+            android:layout_height="46dp"
+            android:layout_below="@id/imgFavorite"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/ic_darbe"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:textOff=""
+            android:textOn=""
+
+            />
+
+
+    </RelativeLayout>
+
+
+
+
+
+</androidx.cardview.widget.CardView>

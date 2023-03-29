@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Movie Catalog</string>
+    <string name="g_r_s_yap">GİRİS YAP</string>
+    <string name="favorites">Favorites</string>
+    <string name="watchlist">WatchList</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
